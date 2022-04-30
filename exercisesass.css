@@ -1,0 +1,40 @@
+div {
+  text-align: center;
+}
+
+div h1 {
+  background-color: #21b6d4;
+  color: #0f2e5b;
+  padding: 100px;
+}
+
+div #img1 {
+  width: 25%;
+  border-radius: 20px;
+  float: left;
+}
+
+div #img2 {
+  width: 25%;
+  border-radius: 20px;
+}
+
+div #img3 {
+  width: 29%;
+  border-radius: 20px;
+  float: right;
+}
+
+div p {
+  font-size: 1.5rem;
+}
+
+div #footer {
+  background-color: #21b6d4;
+  padding: 1px;
+}
+
+div #p1 {
+  font-weight: bold;
+}
+/*# sourceMappingURL=exercisesass.css.map */

@@ -1,0 +1,43 @@
+
+
+div{
+
+    text-align: center;
+
+    h1{
+        background-color: $myBackgroundColor;
+        color: 	$myTextColor;
+        padding: 100px;
+    }
+
+    #img1{
+        width: 25%;
+        border-radius: 20px;
+        float: left;
+    }
+
+    #img2{
+        width: 25%;
+        border-radius: 20px;
+        
+    }
+
+    #img3{
+        width: 29%;
+        border-radius: 20px;
+        float: right;
+    }
+    
+    p{
+        font-size: $myFontSize;
+    }
+
+    #footer{
+        background-color: $myBackgroundColor;
+        padding: 1px;
+    }
+
+    #p1{
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,47 @@
+#firstdiv {
+  text-align: center;
+}
+
+#firstdiv button {
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: #037cc5;
+  border-radius: 50px;
+}
+
+#firstdiv h1 {
+  background-color: #00B7FF;
+  color: #373668;
+  font-size: 4rem;
+}
+
+#firstdiv #i1 {
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 7px black;
+          box-shadow: 5px 5px 7px black;
+}
+
+#firstdiv #p1 {
+  background-color: #350c0c;
+  color: white;
+  font-size: 1rem;
+}
+
+#firstdiv #footer {
+  background-color: yellow;
+  padding: 20px;
+}
+
+#firstdiv #footer button {
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,63 @@
+$myBackgroundColor:#21b6d4;
+$myTextColor:#0f2e5b;
+$myFontSize: 2rem;
+
+
+@mixin btnstyle {
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    
+}
+
+body{
+    background-color: lightblue;
+}
+
+#firstdiv{
+
+    
+
+    h1{
+        background-color: $myBackgroundColor;
+        color: 	$myTextColor;
+        padding: 100px;
+        text-align: center;
+    }
+
+    #i1{
+        border-radius: 20px;
+        float: left;
+    }
+    #i2{
+        border-radius: 20px;
+        float: right;
+    }
+    #i3{
+        border-radius: 20px;
+        float: center;
+        display: block;
+        margin: auto;
+    }
+
+    p{
+        text-align: center;
+        font-size: $myFontSize;
+        
+    }
+}
+
+#footer{
+    text-align: center;
+    background-color: $myBackgroundColor;
+    padding: 5px;
+    font-weight: bold;
+    button{
+        @include btnstyle;
+        background-color: #2ac503;
+        border-radius: 50px;
+        
+    }
+}

@@ -1,0 +1,56 @@
+//import partials
+
+@import "variables";
+@import "mixins";
+
+
+#firstdiv{
+
+    text-align: center;
+
+    button{
+        @include btnstyle;
+        background-color: #037cc5;
+        border-radius: 50px;
+        
+    }
+    
+    h1{
+
+        //local variables
+        
+        background-color: $myBackgroundColor;
+        color:#373668;
+        font-size: $myFontSize;
+       
+    }
+    #i1{
+        border-radius: 20px;
+        box-shadow: 5px 5px 7px $myTextColor2;
+        
+    }
+   
+
+    
+    #p1{
+        background-color: rgb(53, 12, 12);
+        color: white;
+        font-size: 1rem;
+        
+    }
+     
+    #footer{
+        background-color:$myTextColor1;
+        padding:20px;
+        
+
+        button{
+            @include btnstyle;
+                background-color: black;
+                border-radius: 50px;
+        }
+    }
+ 
+
+    }
+   
